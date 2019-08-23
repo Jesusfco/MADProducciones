@@ -94,8 +94,51 @@
 /*  */
 /* NUESTROS TRABAJOS */
 /*  */
+#works .flex {
+    width: 100%;
+}
 
+#works .paddingDiv {
+    padding: 15px;
+    background: #005288d0;
+    transition: .3s;
+    opacity: 0;
+}
+
+#works .paddingDiv:hover {
+    opacity: 1;
+}
+
+.work_detalils *{
+    width: 100%;
+}
 #works .flex > div {
-    width: 33.33vw;
-    height: 33.33vw;
+    width: 33.33%;
+    height: 22.33vw;
+}
+
+/*  */
+/*  */
+/* NUESTROS CLIENTES */
+/*  */
+
+#clients .flex > div{
+    width: 25%;
+    padding: 10px;
+}
+
+#clients .flex > img {
+    display: block;
+    margin: 0 auto;
+}
+/*  */
+/*  */
+/* CONTACTO */
+/*  */
+#contact {
+    background: #222a2f
+}
+
+#contact * {
+    color: white
 }
