@@ -1,0 +1,125 @@
+h1, h2, h3, h4, h5, h6, p, table, td {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.font_1 {font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#3C3C4E;} 
+.font_2 {font: normal normal bold 80px/1.4em raleway,sans-serif ;color:#1B1B1E;} 
+.font_3 {font: normal normal bold 90px/1.4em raleway,sans-serif;color:#1B1B1E;} 
+.font_4 {font: normal normal bold 80px/1.4em raleway,sans-serif ;color:#1B1B1E;} 
+.font_5 {font: normal normal bold 30px/1.4em raleway,sans-serif ;color:#1B1B1E;} 
+.font_6 {font: normal normal bold 16px/1.4em raleway,sans-serif ;color:#1B1B1E;} 
+.font_7 {font: normal normal normal 16px/1.4em raleway,sans-serif ;color:#1B1B1E;} 
+.font_8 {font: normal normal normal 14px/1.4em raleway,sans-serif ;color:#1B1B1E;} 
+.font_9 {font: normal normal normal 12px/1.4em raleway,sans-serif ;color:#3C3C4E;}
+
+.text_center { text-align: center};
+
+.container { 
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 900px;
+    padding: 18px;
+}
+.container2 { 
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 900px;
+    padding: 18px;
+}
+
+.line_title {
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #005084;
+    margin-bottom: 15px;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 70px;
+}
+
+.flex {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.backgroundImage {
+    background-size: cover;
+    background-position: center;
+}
+
+.fullScreenContainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.expandFatherContainerSize {
+    width: 100%;
+    height: 100%;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+
+section {
+    width: 100%;
+    padding: 20px 0;
+}
+@media only screen and (max-width: 800px) { 
+
+}
+
+
+/* MENU PRINCIPAL */
+.menu-principal {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    background: #002944da;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.nav-container{
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.logo-container-nav img{
+    height: 80px;
+
+}
+
+.nav-container .nav-links a {
+    padding: 10px;
+    color: white;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+  }
+
+.centrarFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

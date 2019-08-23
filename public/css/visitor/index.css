@@ -1,0 +1,90 @@
+#topImg {
+    animation-name: agrandar;
+    animation-duration: 10s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes agrandar {
+    0%, 100% {
+        transform: scale(1.04);
+        
+    }
+    50% {
+        transform: scale(1);
+        
+    }
+}
+
+.topDivIndex {
+
+}
+
+.text-container-principal h1 {
+    font-size: 60px;
+    margin: 0
+}
+
+.text-container-principal h1:nth-child(1) {
+    color: white;
+    position: relative;
+    margin-bottom: -15px;
+}
+
+.text-container-principal > h1:nth-child(2) {
+    position: relative;
+    margin-top: -13px;
+}
+
+.text-container-principal div {
+    height: 2px;
+    width: 500px;
+    background: white;
+}
+.text-container-principal {
+    z-index: 4;
+    position: relative;
+    
+}
+
+.topDivIndex > .absolute {
+    top: 0;
+}
+
+/*  */
+/*  */
+/* NUESTROS SERVICIOS */
+/*  */
+
+#services {
+    background: #222a2f
+}
+
+#services * {
+    color: white
+}
+
+.mini_line {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #00375c;
+    margin-bottom: 15px;
+}
+#services .flex {
+    justify-content: space-between;
+}
+
+#services .flex p {
+    font-size: 20px;
+}
+
+/*  */
+/*  */
+/* QUIENES SOMOS */
+/*  */
+
+#quienes {
+    height: 65vh;
+}
