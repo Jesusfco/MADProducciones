@@ -59,8 +59,7 @@
 
         <div class="container2">
             <div class="line_title"></div>
-            <h1 class="title">QUIENES <br>SOMOS</h1>
-            <br>
+            <h1 class="title">QUIENES <br>SOMOS</h1>            
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quam, recusandae eveniet quidem, aliquam, repellat quas numquam a accusantium temporibus quod ullam aperiam eligendi officia molestias sit earum aliquid eaque!</p>    
         </div>
 </section>
@@ -72,6 +71,44 @@
         <br>    
         <p>I'm a paragraph. Click here to add your own text and edit me.<br>
             It’s easy. Just click “Edit Text” or double click me to add your own <br>content and make changes to the font. </p>
+    </div>
+    <div class="flex">
+        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/quienesBackground1.jpg);">
+            <div>
+                <h3>NOMBRE DE TRABAJO</h3>
+                <p>Una breve descripción</p>
+            </div>
+        </div>
+        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/quienesBackground1.jpg);">
+            <div>
+                <h3>NOMBRE DE TRABAJO</h3>
+                <p>Una breve descripción</p>
+            </div>
+        </div>
+        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/quienesBackground1.jpg);">
+            <div>
+                <h3>NOMBRE DE TRABAJO</h3>
+                <p>Una breve descripción</p>
+            </div>
+        </div>
+        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/quienesBackground1.jpg);">
+            <div>
+                <h3>NOMBRE DE TRABAJO</h3>
+                <p>Una breve descripción</p>
+            </div>
+        </div>
+        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/quienesBackground1.jpg);">
+            <div>
+                <h3>NOMBRE DE TRABAJO</h3>
+                <p>Una breve descripción</p>
+            </div>
+        </div>
+        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/quienesBackground1.jpg);">
+            <div>
+                <h3>NOMBRE DE TRABAJO</h3>
+                <p>Una breve descripción</p>
+            </div>
+        </div>
     </div>
 </section>
 

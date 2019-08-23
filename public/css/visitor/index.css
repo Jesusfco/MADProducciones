@@ -88,3 +88,14 @@
 #quienes {
     height: 65vh;
 }
+
+
+/*  */
+/*  */
+/* NUESTROS TRABAJOS */
+/*  */
+
+#works .flex > div {
+    width: 33.33vw;
+    height: 33.33vw;
+}
