@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <div class="movBar centrarFlex" id="">
+        <div class="movBar centrarFlex hide" id="">
             <span class="hideBarIcon"><i class="fas fa-bars"></i></span>
             <div>
                 <a>SERVICIOS</a>

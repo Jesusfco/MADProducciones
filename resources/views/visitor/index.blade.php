@@ -11,6 +11,7 @@
     <script src="{{ url('assets/js/jquery.waypoints.min.js')}}"></script>    
     <script src="{{ url('assets/js/jquery.stellar.js')}}"></script>    
     <script src="js/visitor/index.js"></script>
+    {{-- <script src="js/visitor/menu.js"></script> --}}
     {{-- <script src="js/mail.js"></script> --}}
 @endsection
 

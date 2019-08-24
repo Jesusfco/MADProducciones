@@ -1,10 +1,15 @@
 
 var menuActive = false;
 
-$(".menuIcon").click(function(){
+$(".hideBarIcon").click(function(){
+        
     
-    if(menuActive) {
-        $("#movBar").addClass('animated');
-    }
+    $(".movBar").addClass('hide');                    
+        
+});
 
+$(".nav-links.menuIcon").click(function(){
+    
+    $(".movBar").removeClass('hide');                    
+        
 });
