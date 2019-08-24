@@ -19,9 +19,9 @@
 <div class="fullScreenContainer overflowHidden topDivIndex centrarFlex">
 
         <div class="text-container-principal">
-                <h1>MAKING <br>CONNECTIONS</h1>
+                <h1>CREANDO  <br>ESCENARIOS</h1>
                 <div></div>
-                <h1>DELIVERING <br>RESULTS</h1>
+                <h1>ENTREGANDO<br>EXPERIENCIAS</h1>
             </div>
     <div class="absolute expandFatherContainerSize" style="background: #004f8491; z-index: 2"></div>
     <div class="absolute expandFatherContainerSize backgroundImage" id="topImg" style="background-image: url(img/index/top.jpg); z-index: 1;"></div>
@@ -36,19 +36,19 @@
         <div class="flex">
             <div>
                 <div class="mini_line"></div>
-                <p>SOCIAL<br>MEDIA</p>
+                <p>VIDEO EN PANTALLAS<br>GIGANTES</p>
             </div>
             <div>
                 <div class="mini_line"></div>
-                <p>SOCIAL<br>MEDIA</p>
+                <p>ESTRUCTURA<br>PERIMETRAL</p>
             </div>
             <div>
                 <div class="mini_line"></div>
-                <p>SOCIAL<br>MEDIA</p>
+                <p>ILUMINACIÓN PROFESIONAL<br>ARQUITECTONICA</p>
             </div>
             <div>
                 <div class="mini_line"></div>
-                <p>SOCIAL<br>MEDIA</p>
+                <p>RENTA DE PLANTAS <br>DE LUZ</p>
             </div>
         </div>    
     </div>
@@ -67,10 +67,10 @@
 <section id="works">
     <div class="container2">
         <div class="line_title"></div>
-        <h1 class="title">NUESTROS <br>TRABAJOS</h1>
-        <br>    
-        <p>I'm a paragraph. Click here to add your own text and edit me.<br>
+        <h1 class="title">NUESTROS <br>TRABAJOS</h1>         
+        <p>Creemos <br>
             It’s easy. Just click “Edit Text” or double click me to add your own <br>content and make changes to the font. </p>
+            <br>
     </div>
     <div class="flex">
 
@@ -166,12 +166,12 @@
             <div class="flex">
                 <div>
 
-                    <form>
-                        <input type="text" name="name" required>
-                        <input type="email" name="email" required>
-                        <input type="phone" name="phone" required>
-                        <textarea required><textarea>
-                        <button>Enviar</button>
+                    <form class="mailForm">
+                        <input placeholder="Nombre" type="text" name="name" required>
+                        <input placeholder="Correo" type="email" name="email" required>
+                        <input placeholder="Telefono" type="phone" name="phone" required>
+                        <textarea rows="5" required placeholder="Escribe tu mensaje"></textarea>
+                        <button class="btn">Enviar</button>
                     </form>
 
                 </div>

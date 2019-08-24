@@ -45,47 +45,24 @@ a {
     font-size: 70px;
 }
 
-.flex {
-    display: flex !important;
-    flex-wrap: wrap;
-}
 
-.backgroundImage {
-    background-size: cover;
-    background-position: center;
-}
-
-.fullScreenContainer {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-}
-
-.expandFatherContainerSize {
-    width: 100%;
-    height: 100%;
-}
-
-.absolute {
-    position: absolute;
-}
-
-.overflowHidden {
-    overflow: hidden;
-}
-
-
-section {
-    width: 100%;
-    padding: 20px 0;
-}
 @media only screen and (max-width: 800px) { 
+    .title {
+        margin-top: 0;
+        font-size: 42px;
+    }
 
+    .container2 { 
+        width: 100%;
+        /* max-width: 100%; */
+        padding: 20px;
+    }
 }
 
-
+/*  */
+/*  */
 /* MENU PRINCIPAL */
+/*  */
 .menu-principal {
     position: fixed;
     height: 100px;
@@ -118,8 +95,111 @@ section {
     align-items: center;
   }
 
+  .menuIcon {
+      display: none;
+  }
+
+.movBar {
+    display: hidden;
+}
+@media only screen and (max-width: 930px) { 
+    .menuIcon {
+        display: flex !important;
+    }
+
+    .menuIcon a{
+        font-size: 50px;
+    }
+
+    .nav-container {
+        width: 95%;
+    }
+
+    .movBar {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        background: #005084;
+        transition: .42s ease-in-out;
+        z-index: 100;
+        padding: 20px;
+        top: 0;
+        position: fixed;
+        left: 0;
+    }
+
+    .hideBarIcon {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: white;
+        font-size: 40px; 
+    }
+
+    .movBar div  {
+        display: block;
+        width: 100%;
+    }
+    .movBar div a {
+        width: 100%;
+        padding: 11px;
+        color: white;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+}
+
+/*  */
+/*  */
+/* HELPERS */
+/*  */
+
+.flex {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.backgroundImage {
+    background-size: cover;
+    background-position: center;
+}
+
+.fullScreenContainer {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.expandFatherContainerSize {
+    width: 100%;
+    height: 100%;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    padding: 20px 0;
+}
 .centrarFlex {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.only_pc {}
+.only_phone { display: none !important; }
+
+@media only screen and (max-width: 800px) { 
+    .only_phone { display: initial !important; }
+    .only_pc { display: none !important; }
 }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="image/png" href="{{ asset('img/icon.gif') }}" rel="shortcut icon">
     <title>@yield('title') || JesusRoguez</title>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
                     <img src="{{ url('img/logo2.png')}}">
                 </a>
             </div>
-            <div class="nav-links onlyComputer">
+            <div class="nav-links only_pc">
                 <a>SERVICIOS</a>
                 <a>NOSOTROS</a>
                 <a>CLIENTES</a>                
@@ -31,9 +32,20 @@
                 <a href="{{ url('/')}}#contacto">CONTACTO</a>
                 
             </div>
-            {{-- <div class="onlyPhone nav-links menuIcon">
+            <div class=" nav-links menuIcon ">
                 <a><i class="fas fa-bars"></i></a>
-            </div> --}}
+            </div>
+        </div>
+
+        <div class="movBar centrarFlex" id="">
+            <span class="hideBarIcon"><i class="fas fa-bars"></i></span>
+            <div>
+                <a>SERVICIOS</a>
+                <a>NOSOTROS</a>
+                <a>CLIENTES</a>                
+                <a href="{{ url('/trabajos')}}">TRABAJOS</a>                
+                <a href="{{ url('/')}}#contacto">CONTACTO</a>
+            </div>
         </div>
     </nav>
     @yield('content')

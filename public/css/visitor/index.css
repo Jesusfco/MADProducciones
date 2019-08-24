@@ -52,6 +52,29 @@
     top: 0;
 }
 
+@media only screen and (max-width: 800px) { 
+
+    .text-container-principal div {
+        height: 2px;
+        width: 92%;
+        background: white;
+    }
+
+    .text-container-principal > h1 {
+        font-size: 40px;
+    }
+
+    .text-container-principal h1:nth-child(1) {
+        color: white;
+        position: relative;
+        margin-bottom: -9px;
+    }
+    
+    .text-container-principal > h1:nth-child(2) {
+        position: relative;
+        margin-top: -13px;
+    }
+}
 /*  */
 /*  */
 /* NUESTROS SERVICIOS */
@@ -117,6 +140,13 @@
     height: 22.33vw;
 }
 
+@media only screen and (max-width: 800px) {  
+    #works .flex > div {
+        width: 100%;
+        height: 63vw;
+    }
+}
+
 /*  */
 /*  */
 /* NUESTROS CLIENTES */
@@ -131,6 +161,12 @@
     display: block;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 800px) {  
+    #clients .flex > div{ 
+        width: 50%;
+    }
+}
 /*  */
 /*  */
 /* CONTACTO */
@@ -141,4 +177,42 @@
 
 #contact * {
     color: white
+}
+
+#contact .flex > div {
+    width: 50%;
+    padding: 20px;
+}
+
+.mailForm input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    color: black !important;
+}
+.mailForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    color: black !important;
+}
+
+.btn {
+    padding: 20px 35px;
+    font-size: 20px;
+    text-align: center;
+    background: #00375c;
+    border: none;    
+    color: white;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #134c72;
+}
+
+@media only screen and (max-width: 800px) {  
+    #contact .flex > div  {
+        width: 100%;
+    }
 }
