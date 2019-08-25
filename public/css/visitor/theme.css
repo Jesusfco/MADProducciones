@@ -100,7 +100,7 @@ a {
   }
 
 .movBar {
-    display: hidden;
+    display: none !important;
 }
 @media only screen and (max-width: 930px) { 
     .menuIcon {
@@ -116,7 +116,7 @@ a {
     }
 
     .movBar {
-        display: flex;
+        display: flex !important;
         width: 100%;
         height: 100vh;
         background: #005084;
@@ -126,10 +126,11 @@ a {
         top: 0;
         position: fixed;
         left: 0;
+        transform: translateX(100%);
     }
 
-    .movBar.hide {
-        transform: translateX(100%);
+    .movBar.show {
+        transform: translateX(0);
     }
 
     .hideBarIcon {

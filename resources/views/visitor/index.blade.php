@@ -71,7 +71,10 @@
         <h1 class="title">NUESTROS <br>TRABAJOS</h1>         
         <p>Creemos <br>
             It’s easy. Just click “Edit Text” or double click me to add your own <br>content and make changes to the font. </p>
-            <br>
+            <br><br>
+        <a href="trabajos" class="btn">VER TODOS</a>
+        <br><br>
+        <br><br>
     </div>
     <div class="flex">
 

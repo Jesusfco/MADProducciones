@@ -1,15 +1,22 @@
 
 var menuActive = false;
 
-$(".hideBarIcon").click(function(){
-        
-    
-    $(".movBar").addClass('hide');                    
-        
+$(".hideBarIcon").click(function(){            
+    $(".movBar").removeClass('show');                         
 });
 
 $(".nav-links.menuIcon").click(function(){
-    
-    $(".movBar").removeClass('hide');                    
-        
+    $(".movBar").addClass('show');                            
 });
+
+function moveToIdElement(element) {
+    
+    $("html, body").animate({
+        scrollTop: $("#"+element).offset().top - 100
+    }, 1200);
+    
+    if($(window).width() < 830) {
+        $(".movBar").removeClass('show');                         
+    }
+
+}

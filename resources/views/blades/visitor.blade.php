@@ -25,11 +25,11 @@
                 </a>
             </div>
             <div class="nav-links only_pc">
-                <a>SERVICIOS</a>
-                <a>NOSOTROS</a>
-                <a>CLIENTES</a>                
-                <a href="{{ url('/trabajos')}}">TRABAJOS</a>                
-                <a href="{{ url('/')}}#contacto">CONTACTO</a>
+                <a onclick="moveToIdElement('services')">SERVICIOS</a>
+                <a onclick="moveToIdElement('quienes')">NOSOTROS</a>
+                <a onclick="moveToIdElement('works')">TRABAJOS</a>                
+                <a onclick="moveToIdElement('clients')">CLIENTES</a>                                
+                <a onclick="moveToIdElement('contact')">CONTACTO</a>
                 
             </div>
             <div class=" nav-links menuIcon ">
@@ -37,14 +37,14 @@
             </div>
         </div>
 
-        <div class="movBar centrarFlex hide" id="">
-            <span class="hideBarIcon"><i class="fas fa-bars"></i></span>
+        <div class="movBar centrarFlex" id="">
+            <span class="hideBarIcon">X</span>
             <div>
-                <a>SERVICIOS</a>
-                <a>NOSOTROS</a>
-                <a>CLIENTES</a>                
-                <a href="{{ url('/trabajos')}}">TRABAJOS</a>                
-                <a href="{{ url('/')}}#contacto">CONTACTO</a>
+                <a onclick="moveToIdElement('services')">SERVICIOS</a>
+                <a onclick="moveToIdElement('quienes')">NOSOTROS</a>
+                <a onclick="moveToIdElement('works')">TRABAJOS</a>                
+                <a onclick="moveToIdElement('clients')">CLIENTES</a>                                
+                <a onclick="moveToIdElement('contact')">CONTACTO</a>
             </div>
         </div>
     </nav>
