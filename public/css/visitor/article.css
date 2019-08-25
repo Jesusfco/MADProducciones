@@ -1,5 +1,7 @@
 .topImg{
     height: 50vh;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 .principalImg {

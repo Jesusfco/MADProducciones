@@ -66,7 +66,9 @@
 
 </section>
 
-<section id="quienes" class="backgroundImage" style="background-image: url(img/index/quienesBackground1.jpg);">
+<section 
+    data-stellar-background-ratio="0.5"
+id="quienes" class="backgroundImage" style="background-image: url(img/index/quienesBackground1.jpg);">
 
         <div class="container2">
             <div class="line_title"></div>
