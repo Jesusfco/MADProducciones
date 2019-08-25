@@ -6,11 +6,12 @@
             <div class="flex">
                 <div>
 
-                    <form class="mailForm">
+                    <form class="mailForm" onsubmit="return enviar()">
+                            {{ csrf_field() }}
                         <input placeholder="Nombre" type="text" name="name" required>
                         <input placeholder="Correo" type="email" name="email" required>
                         <input placeholder="Telefono" type="phone" name="phone" required>
-                        <textarea rows="5" required placeholder="Escribe tu mensaje"></textarea>
+                        <textarea rows="5" required placeholder="Escribe tu mensaje" id="message_"></textarea>
                         <button class="btn">Enviar</button>
                     </form>
 

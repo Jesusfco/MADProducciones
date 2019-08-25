@@ -54,6 +54,7 @@
     @include('visitor.contact')
     
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script> var baseUrl = "{{ url('/')}}";</script>
     <script src="{{ url('js/visitor/menu.js') }}"></script>
     <script src="{{ url('js/visitor/mailContact.js') }}"></script>
     @yield('scripts')
