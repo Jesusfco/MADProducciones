@@ -1,21 +1,21 @@
 @extends('blades.app')
 
-@section('title', 'Articulos')
+@section('title', 'Trabajos')
 
 @section('css')
 @endsection
 
 @section('content')
 
-<h5>Articulos >> Lista</h5>
-<a href="{{ url('app/articles/create') }}"><button class="btn">Crear Articulo</button></a>
-<a href="{{ url('app/articles/types') }}"><button class="btn">Tipos de articulos</button></a>
+<h5>Trabajos >> Lista</h5>
+<a href="{{ url('app/articles/create') }}"><button class="btn">Crear Trabajo</button></a>
+<a href="{{ url('app/articles/types') }}"><button class="btn orange">Tipos de articulos</button></a>
 
 <form method="GET" class="navbar-form">
         <div class="input-field">
             <i class="material-icons prefix">search</i>
             <input name="term" type="search" value="{{ request('term')}}" class="form-control" autofocus>
-            <label>Buscar Articulo</label>
+            <label>Buscar Trabajo</label>
         </div>
    </form> 
 

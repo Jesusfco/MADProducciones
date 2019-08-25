@@ -1,12 +1,12 @@
 @extends('blades.app')
 
-@section('title', 'Crear Articulo')
+@section('title', 'Crear Trabajo')
 
 @section('css')
 @endsection
 
 @section('content')
-<h5><a href="{{ url('app/articles') }}">Articulos</a> >> Crear </h5>
+<h5><a href="{{ url('app/articles') }}">Trabajos</a> >> Crear </h5>
 
 <form role="form" method="POST" enctype="multipart/form-data" onsubmit="return crearNoticia()">
     {{ csrf_field() }}
@@ -25,7 +25,7 @@
       <label>Imagen</label>
       <input type="file" name="img" id="imagen" accept="image/x-png,image/gif,image/jpeg" required>
 
-      <p class="help-block">Cargue una fotografía de la noticia</p>
+      <p class="help-block">Cargue una fotografía del trabajo</p>
     </div>
     
     <div class="row"><div class="col-sm-12 col-lg-3">
@@ -47,7 +47,7 @@
     
     
             
-    <label>Redacta tu Articulo</label>
+    <label>Redacta tu Trabajo</label>
     <textarea name="editor1" id="editor1" rows="10" cols="80">
 
     </textarea>
@@ -59,7 +59,7 @@
     </div>
     
     
-    <button type="submit" class="btn btn-default">Crear Nueva Nota</button>
+    <button type="submit" class="btn btn-default">Crear Nuevo Trabajo</button>
   </form>
 
 @endsection

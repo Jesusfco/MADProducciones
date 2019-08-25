@@ -4,6 +4,10 @@
 <br><br><br>
 <br><br><br>
 <br><br><br>
+
+<div class="container2">
+        <div class="line_title"></div>
+        <h1 class="title">INICIAR SESIÓN</h1>       
 <form class="form-horizontal" method="POST" action="{{ url('login') }}">
     {{ csrf_field() }}
 
@@ -49,5 +53,5 @@
         </div>
     </div>
 </form>
-
+</div>
 @endsection

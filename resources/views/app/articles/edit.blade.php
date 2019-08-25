@@ -1,13 +1,13 @@
 @extends('blades.app')
 
-@section('title', 'Editar Articulo')
+@section('title', 'Editar Trabajo')
 
 @section('css')
 @endsection
 
 @section('content')
 
-<h5><a href="{{ url('app/articles') }}">Articulos</a> >> Editar >> {{ $obj->name}} </h5>
+<h5><a href="{{ url('app/articles') }}">Trabajos</a> >> Editar >> {{ $obj->name}} </h5>
 
 <form role="form" method="POST" enctype="multipart/form-data" onsubmit="return crearNoticia()">
     {{ csrf_field() }}
@@ -49,7 +49,7 @@
         
     </div></div>
             
-    <label>Redacta tu noticia</label>
+    <label>Redacta tu trabajo</label>
     <textarea name="editor1" id="editor1" rows="10" cols="80">
     {{ $obj->text }}
     </textarea>
@@ -61,7 +61,7 @@
     </div>
     
     
-    <button type="submit" class="btn btn-default">Editar Blog</button>
+    <button type="submit" class="btn btn-default">Actualizar Trabajo</button>
   </form>
 
 @endsection

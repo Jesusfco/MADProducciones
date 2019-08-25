@@ -1,4 +1,4 @@
-@extends('blades.visitor')
+@extends('blades.app')
 
 @section('title', 'Dashboard')
 

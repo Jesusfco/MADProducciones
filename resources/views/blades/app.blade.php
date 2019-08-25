@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>@yield('title') || Administración || JesusRoguez</title>
+    <title>@yield('title') || Administración || MAD-PRODUCCIONES</title>
     
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="{{ asset('assets/materialize/materialize.css') }}" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -16,11 +16,14 @@
 <body>
 
         <nav class="black lighten-1" role="navigation">
-                <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Roguez</a>
+                <div class="nav-wrapper container">
+                  <a id="logo-container" href="{{ url('')}}" class="brand-logo">
+                    <img src="{{ url('img/logo2.png')}}" height="63px;">
+                  </a>
                   <ul class="right hide-on-med-and-down">
                     <li><a href="{{ url('app') }}">Inicio</a></li>
                     <li><a href="{{ url('app/users') }}">Usuarios</a></li>
-                    <li><a href="{{ url('app/articles') }}">Articulos</a></li>
+                    <li><a href="{{ url('app/articles') }}">Trabajos</a></li>
                     <li><a href="{{ url('app/perfil') }}">Mi Perfil</a></li>
                     <li><a href="{{ url('logout') }}">Cerrar Sesión</a></li>
                   </ul>

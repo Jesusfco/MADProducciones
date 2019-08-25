@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Auth;
 use App\Article;
+use App\ArticlePhoto;
 use Mail;
 use App\Mail\ContactMail;
 
@@ -41,5 +42,9 @@ class VisitorController extends Controller
         Mail::send(new ContactMail($data));
                 
         return response()->json(['msj' => 'Mensaje enviado, en breve se le contestara']);
+    }
+
+    public function getPhotos($id) {
+        return response()->json(ArticlePhoto::where('article_id', $id)->get());
     }
 }

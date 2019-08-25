@@ -37,3 +37,52 @@
         height: 250px !important;
     } 
 } 
+
+
+.photo {
+    width: 20%;
+    height: 100px;
+    position: relative;
+    transition: .35s;
+    overflow: hidden;
+}
+
+.photo:hover {
+    opacity: .8;
+}
+
+.photo:hover .backgroundPhoto {
+    transform: scale(1.05);
+}
+
+.backgroundPhoto {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: .35s;
+}
+
+.photo i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    padding: 3px;
+}
+
+.photoContainer {
+    /* padding: 0 50px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .photoContainer {
+        padding: 0;
+    }
+    .photo {
+        width: 33.3%;
+        height: 30vw;
+    }
+}

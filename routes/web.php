@@ -17,6 +17,7 @@ Route::post('/sendMail', 'VisitorController@sendMail');
 Route::post('/login', 'Auth\LoginController@login');
 Route::get('/trabajos', 'VisitorController@works');
 Route::get('/trabajos/{id}', 'VisitorController@article');
+Route::get('/trabajos/{id}/getPhotos', 'VisitorController@getPhotos');
 
 Route::prefix('app')->group(function () { 
     
