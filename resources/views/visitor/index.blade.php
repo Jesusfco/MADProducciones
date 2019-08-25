@@ -17,7 +17,7 @@
 
 @section('content')
 
-<div class="fullScreenContainer overflowHidden topDivIndex centrarFlex">
+<div class="fullScreenContainer overflowHidden topDivIndex centrarFlex" id="top">
 
         <div class="text-container-principal">
                 <h1>CREANDO  <br>ESCENARIOS</h1>
@@ -69,8 +69,8 @@
     <div class="container2">
         <div class="line_title"></div>
         <h1 class="title">NUESTROS <br>TRABAJOS</h1>         
-        <p>Creemos <br>
-            It’s easy. Just click “Edit Text” or double click me to add your own <br>content and make changes to the font. </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quaerat aliquam! Quo porro aspernatur consequuntur recusandae cupiditate, ipsa unde repudiandae magnam, eveniet est, omnis nemo illum quibusdam distinctio similique eaque? 
+            </p>
             <br><br>
         <a href="trabajos" class="btn">VER TODOS</a>
         <br><br>
@@ -145,8 +145,7 @@
         <div class="container2">
             <div class="line_title"></div>
             <h1 class="title">NUESTROS <br>CLIENTES</h1>            
-            <p>I'm a paragraph. Click here to add your own text and edit me.<br>
-                It’s easy. Just click “Edit Text” or double click me to add your own <br>content and make changes to the font. </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit atque quam amet provident fugit dolor tempore voluptatum voluptatibus dignissimos. Ex aut doloribus quos autem libero labore corrupti mollitia pariatur suscipit.</p>
 
             <div class="flex ">
                 <div><img src="img/clientes/1.webp"></div>
@@ -182,6 +181,7 @@
 
                 <div>
                     <h5>Estamos encantado de atenderte</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad itaque sed eligendi praesentium, assumenda placeat </p>
                     <p>
                         <a href="">correo@madproducciones.com</a><br>
                         <a href="">961-123-4567</a>

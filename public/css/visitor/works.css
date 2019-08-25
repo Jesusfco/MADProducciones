@@ -1,0 +1,94 @@
+#works {
+    padding-top: 100px; 
+}
+
+.works_container  {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    max-width: 1100px;
+    justify-content:center;
+    align-content: center;
+}
+.works_container > div {
+    width: 33.3%;
+}
+
+.work {
+    padding: 20px; 
+}
+
+.work_card {
+    background: white;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06)!important;
+    display: block;
+    padding-bottom: 5px;
+    transition: .35s;
+    color: black;
+
+}
+.work_card  img {
+    display: block;
+    width: 100%;
+}
+
+.work_card .description {
+    padding: 12px;
+}
+
+.work_card h3 {
+    color: #134c72;
+}
+
+.work_card p {
+    color: rgb(98, 98, 98)
+}
+
+.work_card span {
+    color: rgb(126, 126, 126);
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1050px) { 
+    .works_container > div {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) { 
+    .works_container > div {
+        width: 100%;
+    }
+
+    .works_container  {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        max-width: 1100px;
+        justify-content:center;
+        align-content: center;
+    }
+}
+
+/* Pagination links */
+.pagination {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: #134c72;
+    color: white;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .pagination a:hover:not(.active) {background-color: #ddd;}

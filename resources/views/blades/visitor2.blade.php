@@ -20,16 +20,16 @@
     <nav class="menu-principal">
         <div class="nav-container">
             <div class="logo-container-nav">
-                <a >
-                    <img onclick="moveToIdElement('top')" src="{{ url('img/logo2.png')}}">
+                <a href="{{ url('/')}}">
+                    <img src="{{ url('img/logo2.png')}}">
                 </a>
             </div>
-            <div class="nav-links only_pc">
-                <a onclick="moveToIdElement('services')">SERVICIOS</a>
-                <a onclick="moveToIdElement('quienes')">NOSOTROS</a>
-                <a onclick="moveToIdElement('works')">TRABAJOS</a>                
-                <a onclick="moveToIdElement('clients')">CLIENTES</a>                                
-                <a onclick="moveToIdElement('contact')">CONTACTO</a>
+            <div class="nav-links only_pc">                    
+                    <a href="{{ url('/')}}#services">SERVICIOS</a>
+                    <a href="{{ url('/')}}#quienes">NOSOTROS</a>
+                    <a href="{{ url('/')}}#works">TRABAJOS</a>                
+                    <a href="{{ url('/')}}#clients">CLIENTES</a>                                
+                    <a href="{{ url('/')}}#contact">CONTACTO</a>
                 
             </div>
             <div class=" nav-links menuIcon ">
@@ -40,12 +40,12 @@
         <div class="movBar centrarFlex" id="">
             <span class="hideBarIcon">X</span>
             <div>
-                <a onclick="moveToIdElement('top')">INICIO</a>
-                <a onclick="moveToIdElement('services')">SERVICIOS</a>
-                <a onclick="moveToIdElement('quienes')">NOSOTROS</a>
-                <a onclick="moveToIdElement('works')">TRABAJOS</a>                
-                <a onclick="moveToIdElement('clients')">CLIENTES</a>                                
-                <a onclick="moveToIdElement('contact')">CONTACTO</a>
+                <a href="{{ url('/')}}">INICIO</a>
+                <a href="{{ url('/')}}#services">SERVICIOS</a>
+                <a href="{{ url('/')}}#quienes">NOSOTROS</a>
+                <a href="{{ url('/')}}#works">TRABAJOS</a>                
+                <a href="{{ url('/')}}#clients">CLIENTES</a>                                
+                <a href="{{ url('/')}}#contact">CONTACTO</a>
             </div>
         </div>
     </nav>
@@ -54,6 +54,7 @@
 
     
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ url('js/visitor/menu.js') }}"></script>
     @yield('scripts')
 </body>
 </html>

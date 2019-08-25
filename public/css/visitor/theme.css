@@ -15,6 +15,10 @@ a {
 .font_8 {font: normal normal normal 14px/1.4em raleway,sans-serif ;color:#1B1B1E;} 
 .font_9 {font: normal normal normal 12px/1.4em raleway,sans-serif ;color:#3C3C4E;}
 
+p {
+    letter-spacing: 0.4px;
+    line-height: 22px;
+}
 .text_center { text-align: center};
 
 .container { 
@@ -28,7 +32,7 @@ a {
     display: block;
     margin: 0 auto;
     width: 80%;
-    max-width: 900px;
+    max-width: 900px; /*ANTES 900*/
     padding: 18px;
 }
 

@@ -13,17 +13,16 @@ class VisitorController extends Controller
         $article = Article::latest()->first();
         return view('visitor/index')->with('article', $article);
     }
+    public function works(Request $re){
+        $articles = Article::search($re->term)->orderBy('date', 'DESC')
+                            ->with(['user', 'type'])->paginate(9);
+        return view('visitor/works')->with('articles', $articles);
+    }
 
     public function login(){
         if(Auth::check()) return redirect('/app');            
         else return view('visitor/login');
-    }
-
-    public function blog(Request $re) {
-        $articles = Article::search($re->term)->orderBy('date', 'DESC')
-                            ->with(['user', 'type'])->paginate(9);
-        return view('visitor/articles')->with('articles', $articles);
-    }
+    }    
 
     public function article($id) {
         $article = Article::find($id);

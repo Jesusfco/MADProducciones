@@ -1,0 +1,37 @@
+.topImg{
+    height: 50vh;
+}
+
+.principalImg {
+    width: 100%;
+    display: block;
+}
+
+.article p {
+    line-height: 1.5em;
+}
+
+.youtubeVideoContainer {
+    position: relative;
+    /* padding-bottom: 56.25%; */
+    display: block;
+    margin: 0 auto;
+}
+
+.youtubeVideoContainer div{
+    position: relative;
+    /* padding-bottom: 56.25%; */
+} 
+
+.youtubeVideoContainer iframe {
+    width: 100%;
+    /* padding-top: 100%; */
+    /* position: relative; */
+
+}
+
+@media only screen and (max-width: 800px) { 
+    .youtubeVideoContainer iframe {
+        height: 250px !important;
+    } 
+} 

@@ -14,8 +14,8 @@
 Route::get('/', 'VisitorController@index');
 Route::get('/login', 'VisitorController@login');
 Route::post('/login', 'Auth\LoginController@login');
-Route::get('/blog', 'VisitorController@blog');
-Route::get('/blog/{id}', 'VisitorController@article');
+Route::get('/trabajos', 'VisitorController@works');
+Route::get('/trabajos/{id}', 'VisitorController@article');
 
 Route::prefix('app')->group(function () { 
     
