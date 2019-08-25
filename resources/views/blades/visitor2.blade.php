@@ -29,7 +29,7 @@
                     <a href="{{ url('/')}}#quienes">NOSOTROS</a>
                     <a href="{{ url('/')}}#works">TRABAJOS</a>                
                     <a href="{{ url('/')}}#clients">CLIENTES</a>                                
-                    <a href="{{ url('/')}}#contact">CONTACTO</a>
+                    <a onclick="moveToIdElement('contact')">CONTACTO</a>
                 
             </div>
             <div class=" nav-links menuIcon ">
@@ -45,16 +45,17 @@
                 <a href="{{ url('/')}}#quienes">NOSOTROS</a>
                 <a href="{{ url('/')}}#works">TRABAJOS</a>                
                 <a href="{{ url('/')}}#clients">CLIENTES</a>                                
-                <a href="{{ url('/')}}#contact">CONTACTO</a>
+                <a onclick="moveToIdElement('contact')">CONTACTO</a>
             </div>
         </div>
     </nav>
     @yield('content')
-    
+    @include('visitor.contact')
 
     
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="{{ url('js/visitor/menu.js') }}"></script>
+    <script src="{{ url('js/visitor/mailContact.js') }}"></script>
     @yield('scripts')
 </body>
 </html>

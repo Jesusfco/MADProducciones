@@ -20,7 +20,7 @@
     <nav class="menu-principal">
         <div class="nav-container">
             <div class="logo-container-nav">
-                <a >
+                <a>
                     <img onclick="moveToIdElement('top')" src="{{ url('img/logo2.png')}}">
                 </a>
             </div>
@@ -49,12 +49,15 @@
             </div>
         </div>
     </nav>
-    @yield('content')
-    
 
+    @yield('content')
+    @include('visitor.contact')
     
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="{{ url('js/visitor/menu.js') }}"></script>
+    <script src="{{ url('js/visitor/mailContact.js') }}"></script>
     @yield('scripts')
+
 </body>
 </html>
 

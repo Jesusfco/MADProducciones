@@ -51,6 +51,16 @@
                 <div class="mini_line"></div>
                 <p>RENTA DE PLANTAS <br>DE LUZ</p>
             </div>
+
+            <div>
+                <div class="mini_line"></div>
+                <p>AUDIO PROFESIONAL INCLUYENDO MICROFÓNIA</p>
+            </div>
+
+            <div>
+                <div class="mini_line"></div>
+                <p>GRAND SUPPORT</p>
+            </div>
         </div>    
     </div>
 
@@ -78,7 +88,7 @@
     </div>
     <div class="flex">
 
-        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
+        <a href="" class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
             <div class="expandFatherContainerSize centrarFlex paddingDiv">
                 <div class="">
                     
@@ -87,8 +97,8 @@
                     
                 </div>
             </div>
-        </div>
-        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
+        </a>
+        <a href="" class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
             <div class="expandFatherContainerSize centrarFlex paddingDiv">
                 <div class="">
                     
@@ -97,8 +107,8 @@
                     
                 </div>
             </div>
-        </div>
-        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
+        </a>
+        <a href="" class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
             <div class="expandFatherContainerSize centrarFlex paddingDiv">
                 <div class="">
                     
@@ -107,8 +117,8 @@
                     
                 </div>
             </div>
-        </div>
-        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
+        </a>
+        <a class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
             <div class="expandFatherContainerSize centrarFlex paddingDiv">
                 <div class="">
                     
@@ -117,8 +127,8 @@
                     
                 </div>
             </div>
-        </div>
-        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
+        </a>
+        <a class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
             <div class="expandFatherContainerSize centrarFlex paddingDiv">
                 <div class="">
                     
@@ -127,8 +137,8 @@
                     
                 </div>
             </div>
-        </div>
-        <div class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
+        </a>
+        <a class="backgroundImage centrarFlex" style="background-image: url(img/index/trabajos.jpg);">
             <div class="expandFatherContainerSize centrarFlex paddingDiv">
                 <div class="">
                     
@@ -137,7 +147,7 @@
                     
                 </div>
             </div>
-        </div>
+        </a>
     </div>
 </section>
 
@@ -161,35 +171,5 @@
     
 </section>
 
-<section id="contact">
-        <div class="container2">
-            <div class="line_title"></div>
-            <h1 class="title">CONTACTO</h1>            
-            
-            <div class="flex">
-                <div>
-
-                    <form class="mailForm">
-                        <input placeholder="Nombre" type="text" name="name" required>
-                        <input placeholder="Correo" type="email" name="email" required>
-                        <input placeholder="Telefono" type="phone" name="phone" required>
-                        <textarea rows="5" required placeholder="Escribe tu mensaje"></textarea>
-                        <button class="btn">Enviar</button>
-                    </form>
-
-                </div>
-
-                <div>
-                    <h5>Estamos encantado de atenderte</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad itaque sed eligendi praesentium, assumenda placeat </p>
-                    <p>
-                        <a href="">correo@madproducciones.com</a><br>
-                        <a href="">961-123-4567</a>
-                    </p>
-                </div>
-
-            </div>
-    
-</section>
 
 @endsection
