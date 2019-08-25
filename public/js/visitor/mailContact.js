@@ -9,7 +9,7 @@ function enviar() {
 
     $.ajax({
         type: "POST",
-        url: baseUrl + "sendMail",
+        url: baseUrl + "/sendMail",
         async: true,
         data: {
             email: correo,
@@ -26,7 +26,7 @@ function enviar() {
         },
         error: function(xhr, ajaxOptions, thrownError) {
 
-            console.log(xhr);
+            console.log(thrownError);
             //    cleanContact();
 
             } //Error

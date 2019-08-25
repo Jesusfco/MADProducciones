@@ -13,6 +13,7 @@
 
 Route::get('/', 'VisitorController@index');
 Route::get('/login', 'VisitorController@login');
+Route::post('/sendMail', 'VisitorController@sendMail');
 Route::post('/login', 'Auth\LoginController@login');
 Route::get('/trabajos', 'VisitorController@works');
 Route::get('/trabajos/{id}', 'VisitorController@article');
