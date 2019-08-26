@@ -29,3 +29,9 @@
             </div>
     
 </section>
+
+<div class="messageSendingMail hide">
+    <div>
+        <p class="" id="messageMail">Enviando Mensaje...</p>
+    </div>
+</div>
