@@ -48,12 +48,12 @@
     <footer class="page-footer orange">
             <div class="container">
               <div class="row">
-                <div class="col l6 s12">
-                  <h5 class="white-text">Manten esto presente </h5>
-                  <p class="grey-text text-lighten-4">Recuerda cada día cual es tu sueño, el honor y la humildad son raices de tu caracter. El guerrero es el espirito que alberga en tu alma</p>
+                {{-- <div class="col l6 s12"> --}}
+                  {{-- <h5 class="white-text">Manten esto presente </h5>
+                  <p class="grey-text text-lighten-4">Recuerda cada día cual es tu sueño, el honor y la humildad son raices de tu caracter. El guerrero es el espirito que alberga en tu alma</p> --}}
         
         
-                </div>
+                {{-- </div> --}}
                 {{-- <div class="col l3 s12">
                   <h5 class="white-text">Settings</h5>
                   <ul>
