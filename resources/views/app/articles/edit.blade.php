@@ -7,7 +7,7 @@
 
 @section('content')
 
-<h5><a href="{{ url('app/articles') }}">Trabajos</a> >> Editar >> {{ $obj->name}} </h5>
+<h5><a href="{{ url('app/articles') }}">Trabajos </a> / Editar / {{ $obj->name}} </h5>
 
 <form role="form" method="POST" enctype="multipart/form-data" onsubmit="return crearNoticia()">
     {{ csrf_field() }}
